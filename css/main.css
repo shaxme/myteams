@@ -11,20 +11,20 @@ body {
 }
 
 .container {
- max-width:1260px;
- padding: 70px 50px;
- margin:-1px auto;
+  max-width:1150px;
+  padding: 20px 20px;
+  margin: 0px auto;
 }
  
 .visually-hidden {
- position:absolute;
- width:1px;
- height:1px;
- margin:-1px;
- padding:0;
- overflow:hidden;
- border:0;
- clip: rect(0 0 0 0);
+  position:absolute;
+  width:1px;
+  height:1px;
+  margin:-1px;
+  padding:0;
+  overflow:hidden;
+  border:0;
+  clip: rect(0 0 0 0);
 }
 
 .header {
@@ -163,7 +163,7 @@ body {
 }
 
 
- .main-info p{
+.main-info p{
   font-family: 'Livvic';
 font-style: normal;
 font-weight: 600;
@@ -173,14 +173,14 @@ color: #fff;
  }
 
 
- .content-section{
+.content-section {
   background-color:  #012F34;
   background-image: url(../img/ssss.png);
   background-repeat: no-repeat;
  background-position: 1420px 420px;
  padding-bottom: 50px;
 
- }
+}
 
 
 .content{
@@ -190,29 +190,29 @@ color: #fff;
 }
 
 
- .content-header{
+.content-header{
   max-width: 440px;
- }
- .content-header::after{
+}
+
+.content-header::after{
   background-image: url(../img/ssss.png);
- }
+}
 
 .content-line{
   display: block;
   width: 50px;
-height: 4px;
-background: #F67E7E;
+  height: 4px;
+  background: #F67E7E;
 }
 
-
- .content-header h2{
+.content-header h2{
   font-family: 'Livvic';
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 48px;
 color: #fff;
- }
+}
 
  .content-list{
   max-width: 554px;
@@ -229,14 +229,14 @@ color: #fff;
  }
 
 .param{
-font-family: 'Livvic';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 28px;
-color: #F67E7E;
-margin-bottom:13px;
- }
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+  margin-bottom:13px;
+}
  .param2{
   font-family: 'Livvic';
   font-style: normal;
@@ -246,18 +246,17 @@ margin-bottom:13px;
   color:#fff;
   margin: 0;
   max-width: 450px;
- }
+}
  .experience{
   margin-left: 15px;
 
- }
+}
 
 .third{
   background-color: #014E56;
   background-image: url(../img/left.png),url(../img/right.png);
   background-repeat: no-repeat;
   background-position:0px 0, 1320px 530px;
- 
   left: 0;
 }
 
@@ -282,6 +281,8 @@ font-weight: 700;
 font-size: 48px;
 line-height: 48px;
 padding-left: 330px;
+padding-top: 50px;
+color: #012F34;
 
 
 }
@@ -293,6 +294,7 @@ padding-left: 330px;
   color: #012F34;
   border: 2px solid #000;
   padding: 10px 30px;
+  margin-top: 50px;
   border-radius: 25px;
   font-family: 'Livvic';
   font-style: normal;
@@ -302,9 +304,9 @@ padding-left: 330px;
 }
 
 .social-tel:hover{
-background-color: #fff;
-color: #000;
-border: 2px solid #fff ;
+background-color: #012F34;
+color: #fff;
+border: 2px solid #012F34 ;
 transition: 0.5s ease;
 transform: scale(1.1);
 }
@@ -472,203 +474,4 @@ font-weight: 600;
 font-size: 15px;
 line-height: 25px;
 color: #fff;
-}
-
-
-
-@media only screen and (max-width:1000px){
-
-
-.main{
-  background-position:-112px 100px,240px 463px;
-  right: 0 auto;
-}
-
-.title h1{
-  text-align: center;
-  font-size: 90px;
-  margin-bottom: 0px;
-}
-  .main-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-.main-info{
-max-width: 500px;
-}
-
- .line{
-  display:none;
- }
- .main-info p{
-  max-width:auto;
-  text-align: center;
-  margin-top: 20px;
- }
-
-.content-section{
-  background-position: 896px 0px;
-  right: 0;
-}
-
-.third{
-  background-position:0 0, 800px 1444px;
-}
-
-
-
- .content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
- .content-header{
-  max-width: 575px;
- }
- .content-list{
-  margin-top: 0px;
- }
-.content-item{
- margin-bottom: 30px;
-}
-.transporting{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.profession{
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-
-}
-.personal-info{
-  font-size: 25px;
-  line-height: 35px;
-}
-.profession span{
-  font-size: 20px;
-}
-.level-job{
-  font-size: 16px;
-}
-
-.profession li{
-  max-width: 563px;
-  background-position: 231px 0px;
-  margin-bottom: 40px;
-}
-
-.pink{
-  background-position: 0px 85px;
-}
-.ready span{
-  font-size: 35px;
- padding-left: 200px;
-}
-
-}
-
-@media only screen and (max-width: 900px){
-  .content-section{
-    background-position: 800px 0px;
-  }
-  .third{
-    background-position: 0 0, 700px 1390px;
-  }
-  .personal-info{
-    font-size: 23px;
-    line-height: 32px;
-  }
-  .profession span{
-    font-size: 19px;
-  }
-  .level-job{
-    font-size: 15px;
-  }
-.transporting-header h3{
-  font-size: 46px;
-}
-
-
-}
-
-
-@media only screen and (max-width: 800px){
-  .content-section{
-    background-position: 700px 0px;
-  }
-  .third{
-    background-position: 0 0, 600px 1440px;
-  }
-.ready span{
-  padding-left: 130px;
-}
-
-
-}
-  
-
-@media only screen and (max-width: 700px){
-
-
-.title h1{
-  font-size:80px;
-}
-.main{
-  background-position: -112px 100px, 168px 463px;
-}
-
-  .content-section{
-    background-position: 600px 0px;
-  }
-.content-header h2{
-  font-size: 32px;
-  max-width: 400px;
-}
-.content-list{
-  margin-left: 40px;
-}
-
-  .third{
-    background-position: 0 0, 500px 1438px;
-  }
-  .ready span{
-    padding-left: 40px;
-  }
-.social-net ul{
-  position: absolute;
-  left: -50px;
-  bottom:0px;
-}
-.address{
-  position: absolute;
-  right: 0;
-  text-align: right;
-
-}
-
-.final{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-}
-
-
-
-
-
-@media only screen and (max-width: 600px){ 
-  .main{
-    background-position: -112px 100px, 100px 463px;
-  }
-.third{
-  background-position: 0 0, 400px 1438px;
-}
-
-
 }
